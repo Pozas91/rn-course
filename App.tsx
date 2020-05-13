@@ -1,16 +1,16 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Button, StyleSheet, TextInput, View} from 'react-native';
 
 export default function App() {
   return (
-    <View>
+    <View style={{padding: 50}}>
       <View>
-        ...
+        <TextInput placeholder={'Course Goal'} style={{borderColor: 'black', borderWidth: 1, padding: 10}}/>
+        <Button title={'ADD'} onPress={() => ''}/>
       </View>
       <View>
-        ...
+
       </View>
-      {/*<Text>Open up App.tsx to start working on your app!</Text>*/}
     </View>
   );
 }
